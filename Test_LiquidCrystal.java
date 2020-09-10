@@ -1,3 +1,4 @@
+
 class Test_LiquidCrystal {
 
     static {
@@ -5,6 +6,7 @@ class Test_LiquidCrystal {
     }
 
     public static void main(String[] args) {
+      LiquidCrystal lc = new LiquidCrystal();
       System.out.println("it works");
     }
 
